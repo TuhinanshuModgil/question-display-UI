@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    font-family: 'Inter', sans-serif;
+}
+
+.option-image-container p img {
+    object-fit: cover;
+    height: 25svh;
+  /* or
+    object-fit: cover; */
+  } 
+
+  
