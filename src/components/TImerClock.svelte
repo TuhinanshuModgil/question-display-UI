@@ -48,8 +48,8 @@
 </script>
 
 <div>{h} : {m} : {s}</div>
-<button class="p-2 bg-orange-400 rounded m-1" on:click={handleStart}
+<!-- <button class="p-2 bg-orange-400 rounded m-1" on:click={handleStart}
     >Start</button
 >
 <button class="p-2 bg-red-400 rounded m-1" on:click={handleStop}>Stop</button>
-<button class="p-2 bg-green-400 rounded m-1" on:click={handleReset}>Reset</button>
+<button class="p-2 bg-green-400 rounded m-1" on:click={handleReset}>Reset</button> -->

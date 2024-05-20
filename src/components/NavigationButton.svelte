@@ -8,8 +8,8 @@
 </script>
 
 <button
-    class="bg-orange-300 rounded-md p-1"
+    class="bg-red-light rounded-[4px] p-1"
     on:click={handleQuestionNavigation}
 >
-    {buttonIndex}
+    {buttonIndex+1}
 </button>

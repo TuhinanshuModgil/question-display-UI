@@ -4,7 +4,7 @@
     import ExamDetails from "../components/ExamDetails.svelte";
   </script>
 
-<nav class="h-[12svh] border-b-[2px] border-black/50 flex justify-between">
+<nav class="h-[12svh] border-b-[1px] shadow-md border-black/50 flex justify-between">
     
     <ExamDetails/>
     <CandidateDetails/>
