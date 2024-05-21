@@ -65,7 +65,7 @@
 
 <div class=" h-[88svh] flex">
     {#if jsonData}
-        <div class=" w-2/3 grid grid-rows-6 min-h-0">
+        <div class=" w-2/3 grid grid-rows-6 min-h-0 px-5">
             <QuestoinArea questionData={question} bind:currentQuestion={questionNO} />
         </div>
         <div class=" w-1/3 flex flex-col">

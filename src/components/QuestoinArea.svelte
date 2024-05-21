@@ -23,7 +23,7 @@
 <div class="row-span-5 overflow-auto">
     
     {#if qdata}
-    <div class="  p-5 overflow-auto">
+    <div class="  p-5 overflow-auto text-lg">
         <p class="mb-2">Question: {currentQuestion+1}</p>
         <p>{@html qdata.qimage}</p>
         <p class="mb-4">Hint: {@html qdata?.q_hint}</p>
